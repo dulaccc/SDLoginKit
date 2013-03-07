@@ -1,0 +1,8 @@
+platform :ios, :deployment_target => '5.0'
+
+pod 'SDLoginKit', :local => '../.'
+
+# Add Kiwi as an exclusive dependency for the Tests target
+# target :SDLoginKitTests do
+#    pod 'Kiwi'
+# end

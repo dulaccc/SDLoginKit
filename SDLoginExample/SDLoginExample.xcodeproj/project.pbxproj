@@ -7,16 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55F5266C16E6BB6300B76CE1 /* gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F5265A16E6BB6300B76CE1 /* gray.png */; };
-		55F5266D16E6BB6300B76CE1 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F5265B16E6BB6300B76CE1 /* green.png */; };
-		55F5266E16E6BB6300B76CE1 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F5265C16E6BB6300B76CE1 /* red.png */; };
-		55F5266F16E6BB6300B76CE1 /* SDFooterButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F5265E16E6BB6300B76CE1 /* SDFooterButtonView.m */; };
-		55F5267016E6BB6300B76CE1 /* SDPatternCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F5266116E6BB6300B76CE1 /* SDPatternCell.m */; };
-		55F5267116E6BB6300B76CE1 /* SDPlaceholderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F5266316E6BB6300B76CE1 /* SDPlaceholderCell.m */; };
-		55F5267216E6BB6300B76CE1 /* SDRoundedImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F5266516E6BB6300B76CE1 /* SDRoundedImageViewCell.m */; };
-		55F5267316E6BB6300B76CE1 /* SDSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F5266716E6BB6300B76CE1 /* SDSwitchCell.m */; };
-		55F5267416E6BB6300B76CE1 /* SDTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F5266916E6BB6300B76CE1 /* SDTextFieldCell.m */; };
-		55F5267516E6BB6300B76CE1 /* SDTextFooterButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F5266B16E6BB6300B76CE1 /* SDTextFooterButtonView.m */; };
+		6EE80C61ED9D44C7AE44191E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8346DD279D34B13B33D3BF9 /* libPods.a */; };
 		7B255D4F16B5BDCF0036AFB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B255D4E16B5BDCF0036AFB8 /* UIKit.framework */; };
 		7B255D5116B5BDCF0036AFB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B255D5016B5BDCF0036AFB8 /* Foundation.framework */; };
 		7B255D5316B5BDCF0036AFB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B255D5216B5BDCF0036AFB8 /* CoreGraphics.framework */; };
@@ -31,9 +22,6 @@
 		7B6800B616B5BE9D005D40B7 /* _worklog in Resources */ = {isa = PBXBuildFile; fileRef = 7B6800B516B5BE9D005D40B7 /* _worklog */; };
 		7B68011116B5C7FB005D40B7 /* welcome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B68011016B5C7FB005D40B7 /* welcome.jpg */; };
 		7B68011716B5E218005D40B7 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B68011616B5E218005D40B7 /* logo.png */; };
-		7BD5D03F16E13FCB006E6293 /* SDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5D03916E13FCB006E6293 /* SDLoginViewController.m */; };
-		7BD5D04016E13FCB006E6293 /* SDPasswordResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5D03B16E13FCB006E6293 /* SDPasswordResetViewController.m */; };
-		7BD5D04116E13FCB006E6293 /* SDSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5D03D16E13FCB006E6293 /* SDSignUpViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +69,8 @@
 		7BD5D03B16E13FCB006E6293 /* SDPasswordResetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPasswordResetViewController.m; sourceTree = "<group>"; };
 		7BD5D03C16E13FCB006E6293 /* SDSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSignUpViewController.h; sourceTree = "<group>"; };
 		7BD5D03D16E13FCB006E6293 /* SDSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSignUpViewController.m; sourceTree = "<group>"; };
+		F090672812BE4EC399293008 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		F8346DD279D34B13B33D3BF9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +81,7 @@
 				7B255D4F16B5BDCF0036AFB8 /* UIKit.framework in Frameworks */,
 				7B255D5116B5BDCF0036AFB8 /* Foundation.framework in Frameworks */,
 				7B255D5316B5BDCF0036AFB8 /* CoreGraphics.framework in Frameworks */,
+				6EE80C61ED9D44C7AE44191E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +127,7 @@
 				7B255D5416B5BDCF0036AFB8 /* SDLoginExample */,
 				7B255D4D16B5BDCF0036AFB8 /* Frameworks */,
 				7B255D4B16B5BDCF0036AFB8 /* Products */,
+				F090672812BE4EC399293008 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +147,7 @@
 				7B255D4E16B5BDCF0036AFB8 /* UIKit.framework */,
 				7B255D5016B5BDCF0036AFB8 /* Foundation.framework */,
 				7B255D5216B5BDCF0036AFB8 /* CoreGraphics.framework */,
+				F8346DD279D34B13B33D3BF9 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -213,6 +206,7 @@
 				7B255D4616B5BDCF0036AFB8 /* Sources */,
 				7B255D4716B5BDCF0036AFB8 /* Frameworks */,
 				7B255D4816B5BDCF0036AFB8 /* Resources */,
+				6B4EC2DFED394CDAADE67A50 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,13 +256,27 @@
 				7B6800B616B5BE9D005D40B7 /* _worklog in Resources */,
 				7B68011116B5C7FB005D40B7 /* welcome.jpg in Resources */,
 				7B68011716B5E218005D40B7 /* logo.png in Resources */,
-				55F5266C16E6BB6300B76CE1 /* gray.png in Resources */,
-				55F5266D16E6BB6300B76CE1 /* green.png in Resources */,
-				55F5266E16E6BB6300B76CE1 /* red.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B4EC2DFED394CDAADE67A50 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B255D4616B5BDCF0036AFB8 /* Sources */ = {
@@ -278,16 +286,6 @@
 				7B255D5B16B5BDCF0036AFB8 /* main.m in Sources */,
 				7B255D5F16B5BDCF0036AFB8 /* AppDelegate.m in Sources */,
 				7B255D6816B5BDCF0036AFB8 /* ViewController.m in Sources */,
-				7BD5D03F16E13FCB006E6293 /* SDLoginViewController.m in Sources */,
-				7BD5D04016E13FCB006E6293 /* SDPasswordResetViewController.m in Sources */,
-				7BD5D04116E13FCB006E6293 /* SDSignUpViewController.m in Sources */,
-				55F5266F16E6BB6300B76CE1 /* SDFooterButtonView.m in Sources */,
-				55F5267016E6BB6300B76CE1 /* SDPatternCell.m in Sources */,
-				55F5267116E6BB6300B76CE1 /* SDPlaceholderCell.m in Sources */,
-				55F5267216E6BB6300B76CE1 /* SDRoundedImageViewCell.m in Sources */,
-				55F5267316E6BB6300B76CE1 /* SDSwitchCell.m in Sources */,
-				55F5267416E6BB6300B76CE1 /* SDTextFieldCell.m in Sources */,
-				55F5267516E6BB6300B76CE1 /* SDTextFooterButtonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +363,7 @@
 		};
 		7B255D6F16B5BDCF0036AFB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F090672812BE4EC399293008 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDLoginExample/SDLoginExample-Prefix.pch";
@@ -376,6 +375,7 @@
 		};
 		7B255D7016B5BDCF0036AFB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F090672812BE4EC399293008 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDLoginExample/SDLoginExample-Prefix.pch";
