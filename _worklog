@@ -67,6 +67,11 @@ Added No Delegate Exception
 Added Password Reset Support
 Added Sign Up Support
 
+3/10
+Add PreDefined backends :
+    - Add AFNetworking for predefined implementations
+    - Add an example for AFNetworking and AFOAuth2Client in CustomOAuth2BackendViewController.m
+
 
 - How-to Get Started in Readme
 - Add Password Confirm if Added Password to Sign Up
@@ -99,7 +104,6 @@ Maybe?
         -Devise
     - Facebook
     - Twitter
-    - Add AFNetworking for predefined implementations
     - serverURL
 
 

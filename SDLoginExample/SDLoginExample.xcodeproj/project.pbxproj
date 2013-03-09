@@ -22,6 +22,8 @@
 		7B6800B616B5BE9D005D40B7 /* _worklog in Resources */ = {isa = PBXBuildFile; fileRef = 7B6800B516B5BE9D005D40B7 /* _worklog */; };
 		7B68011116B5C7FB005D40B7 /* welcome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B68011016B5C7FB005D40B7 /* welcome.jpg */; };
 		7B68011716B5E218005D40B7 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B68011616B5E218005D40B7 /* logo.png */; };
+		BEF7204216EBF4560051741C /* CustomOAuth2BackendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF7204016EBF4560051741C /* CustomOAuth2BackendViewController.m */; };
+		BEF7204316EBF4560051741C /* CustomOAuth2BackendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF7204116EBF4560051741C /* CustomOAuth2BackendViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +71,9 @@
 		7BD5D03B16E13FCB006E6293 /* SDPasswordResetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPasswordResetViewController.m; sourceTree = "<group>"; };
 		7BD5D03C16E13FCB006E6293 /* SDSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSignUpViewController.h; sourceTree = "<group>"; };
 		7BD5D03D16E13FCB006E6293 /* SDSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSignUpViewController.m; sourceTree = "<group>"; };
+		BEF7203F16EBF4550051741C /* CustomOAuth2BackendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomOAuth2BackendViewController.h; sourceTree = "<group>"; };
+		BEF7204016EBF4560051741C /* CustomOAuth2BackendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomOAuth2BackendViewController.m; sourceTree = "<group>"; };
+		BEF7204116EBF4560051741C /* CustomOAuth2BackendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOAuth2BackendViewController.xib; sourceTree = "<group>"; };
 		F090672812BE4EC399293008 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		F8346DD279D34B13B33D3BF9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -160,6 +165,9 @@
 				7B255D6616B5BDCF0036AFB8 /* ViewController.h */,
 				7B255D6716B5BDCF0036AFB8 /* ViewController.m */,
 				7B255D6916B5BDCF0036AFB8 /* ViewController.xib */,
+				BEF7203F16EBF4550051741C /* CustomOAuth2BackendViewController.h */,
+				BEF7204016EBF4560051741C /* CustomOAuth2BackendViewController.m */,
+				BEF7204116EBF4560051741C /* CustomOAuth2BackendViewController.xib */,
 				7B6800B516B5BE9D005D40B7 /* _worklog */,
 				7B255D5516B5BDCF0036AFB8 /* Supporting Files */,
 			);
@@ -256,6 +264,7 @@
 				7B6800B616B5BE9D005D40B7 /* _worklog in Resources */,
 				7B68011116B5C7FB005D40B7 /* welcome.jpg in Resources */,
 				7B68011716B5E218005D40B7 /* logo.png in Resources */,
+				BEF7204316EBF4560051741C /* CustomOAuth2BackendViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +295,7 @@
 				7B255D5B16B5BDCF0036AFB8 /* main.m in Sources */,
 				7B255D5F16B5BDCF0036AFB8 /* AppDelegate.m in Sources */,
 				7B255D6816B5BDCF0036AFB8 /* ViewController.m in Sources */,
+				BEF7204216EBF4560051741C /* CustomOAuth2BackendViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

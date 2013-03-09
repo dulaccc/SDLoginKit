@@ -2,6 +2,10 @@ platform :ios, :deployment_target => '5.0'
 
 pod 'SDLoginKit', :local => '../.'
 
+# Dependencies used in the example
+pod 'AFNetworking', '~> 1.1'
+pod 'AFOAuth2Client', '~> 0.1.0'
+
 # Add Kiwi as an exclusive dependency for the Tests target
 # target :SDLoginKitTests do
 #    pod 'Kiwi'
